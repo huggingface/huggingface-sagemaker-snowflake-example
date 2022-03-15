@@ -5,14 +5,7 @@ This repository contains code and instructions on how to integrate Hugging Face 
 ![architecture](assets/architecture.png)
 
 
-# Resources 
-
-* [Snowflake: External Functions YT](https://www.youtube.com/watch?v=qangh4oM_zs&ab_channel=SnowflakeInc.)
-* [Snowflake: External Functions Docs](https://docs.snowflake.com/en/sql-reference/external-functions-creating-aws-ui.html)
-* [Snowflake: API Gateway policy](https://docs.snowflake.com/en/sql-reference/external-functions-creating-aws-common-api-integration-proxy-link.html)
-
 # Tutorial
-
 
 ## 0. Prequisition
 
@@ -80,9 +73,7 @@ CREATE OR REPLACE API INTEGRATION huggingface
     ;
 ```
 
-![create-api-integration](assets/reate-api-integration.png)
-
-docs.snowflake.com/en/sql-reference/external-functions-creating-aws.html
+![create-api-integration](assets/create-api-integration.png)
 
 # 3. Update IAM role (different CDK) project
 
@@ -147,3 +138,8 @@ the result look the similar to this
 
 ![invocation](assets/invocation.png)
 
+# Resources 
+
+* [Snowflake: External Functions YT](https://www.youtube.com/watch?v=qangh4oM_zs&ab_channel=SnowflakeInc.)
+* [Snowflake: External Functions Docs](https://docs.snowflake.com/en/sql-reference/external-functions-creating-aws-ui.html)
+* [Snowflake: API Gateway policy](https://docs.snowflake.com/en/sql-reference/external-functions-creating-aws-common-api-integration-proxy-link.html)
