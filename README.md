@@ -52,9 +52,9 @@ Test your endpoint with `curl`:
 curl --request POST \
   --url {HuggingfaceSagemakerEndpoint.hfapigwEndpointE75D67B4} \
   --header 'Content-Type: application/json' \
-  --data '{
+  --data '{"data":
 	"inputs": "Hugging Face, the winner of VentureBeat’s Innovation in Natural Language Process/Understanding Award for 2021, is looking to level the playing field. The team, launched by Clément Delangue and Julien Chaumond in 2016, was recognized for its work in democratizing NLP, the global market value for which is expected to hit $35.1 billion by 2026. This week, Google’s former head of Ethical AI Margaret Mitchell joined the team."
-}'
+}}'
 ```
 
 You should see the following response: `[{"label":"POSITIVE","score":0.9970797896385193}]`
